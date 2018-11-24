@@ -43,6 +43,6 @@ Las imagenes de docker son para Mongo, Frontend y Backend
 
 -No tiene una DNS que permita redireccionar la ip
 
-###### link de la aplicación: http://40.83.212.62/
+#### link de la aplicación: http://40.83.212.62/
 
 
