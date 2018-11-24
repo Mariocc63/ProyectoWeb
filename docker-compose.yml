@@ -1,0 +1,19 @@
+version: "3"
+services:
+  mongo:
+    image: mongo
+    ports:
+    - "27017:27017"
+  api:
+    build: ./Backend
+    ports:
+    - "4000:4000"
+    depends_on:
+    - mongo
+    command: node server.js
+  web:
+    build: ./Frontend
+    ports:
+    - "8000:80"
+    links:
+- api
