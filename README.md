@@ -1,6 +1,6 @@
 # FRONTEND, BACKEND, DOCKER
 
-aplicación web que utiliza una API para hacer CRUD en una base de datos no relacional (Mongodb), para posteriormente subirse en la nube, Azure en este caso, después de generar imagenes docker. La página está basada en una lista de animes que el usuario puede manipular.
+Aplicación web que utiliza una API para hacer CRUD en una base de datos no relacional (Mongodb), para posteriormente subirse a la nube (Azure en este caso). La página está basada en una lista de animes que el usuario puede manipular.
 Las imagenes de docker son para Mongo, Frontend y Backend
 
 
