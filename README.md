@@ -1,10 +1,10 @@
-FRONTEND, BACKEND, DOCKER
+# FRONTEND, BACKEND, DOCKER
 
 aplicación web que utiliza una API para hacer CRUD en una base de datos no relacional (Mongodb), para posteriormente subirse en la nube, Azure en este caso, después de generar imagenes docker. La página está basada en una lista de animes que el usuario puede manipular.
 Las imagenes de docker son para Mongo, Frontend y Backend
 
 
-FRONTEND
+## FRONTEND
 
 -Se utilizó React js
 
@@ -15,14 +15,14 @@ FRONTEND
 -No utiliza bootstrap y ningún otro framework
 
 
-BACKEND
+## BACKEND
 
 -Se utilizó Express js
 
 -Conexión con Mongo con mongoose
 
 
-DOCKER
+## DOCKER
 
 -Creación de docker-compose.yml
 
@@ -31,7 +31,7 @@ DOCKER
 -Construcción de las imagenes
 
 
-NUBE (AZURE)
+## NUBE (AZURE)
 
 -Creación de un Register container, en ellos se almacenas las imagenes de Mongo, Backend y Frontend
 
